@@ -39,7 +39,6 @@ body {
 
 // Set default view, and remove all other elements
 .callout[data-callout~="manuscript"] {
-  --callout-color: var(--manu-title-color);
   --callout-icon: "";
 
   background-color: rgba(0, 0, 0, 0);
@@ -51,17 +50,17 @@ body {
     margin-bottom: var(--manu-content-margin-bottom);
   }
 
-  strong em,
-  em strong {
-    color: var(--manu-italic-bold-color);
-  }
-
   em {
     color: var(--manu-italic-color);
   }
 
   strong {
     color: var(--manu-bold-color);
+  }
+
+  strong > em,
+  em > strong {
+    color: var(--manu-italic-bold-color);
   }
 
   .callout-title,
@@ -81,11 +80,13 @@ body {
     }
   }
 
-  .callout[data-callout-metadata~="title"] .callout-title {
+  .callout[data-callout-metadata~="title"] > .callout-title > .callout-title-inner {
     font-size: var(--manu-title-size);
+    color: var(--manu-title-color);
   }
-  .callout[data-callout-metadata~="subtitle"] .callout-title {
+  .callout[data-callout-metadata~="subtitle"] > .callout-title > .callout-title-inner {
     font-size: var(--manu-subtitle-size);
+    color: var(--manu-subtitle-color);
   }
 
   // Breaks
@@ -176,11 +177,11 @@ settings:
   title: Italic Color
   type: variable-color
   format: hex
-- id: manu-bold-size
+- id: manu-bold-color
   title: Bold Color
   type: variable-color
   format: hex
-- id: manu-italic-bold-size
+- id: manu-italic-bold-color
   title: Italic + Bold Color
   type: variable-color
   format: hex
