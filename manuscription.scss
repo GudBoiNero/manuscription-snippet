@@ -1,13 +1,17 @@
 body {
   // Text
-  --manu-title-color: 255, 255, 255;
+  --manu-title-color: rgb(255, 255, 255);
   --manu-title-size: 24px;
 
-  --manu-subtitle-color: 255, 255, 255;
+  --manu-subtitle-color: rgb(255, 255, 255);
   --manu-subtitle-size: 14px;
 
-  --manu-content-color: 255, 255, 255;
+  --manu-content-color: rgb(255, 255, 255);
   --manu-content-size: 14px;
+
+  --manu-italic-color: rgb(255, 255, 255);
+  --manu-bold-color: rgb(255, 255, 255);
+  --manu-italic-bold-color: rgb(255, 255, 255);
 
   // Spacing
   --manu-title-text-align: center;
@@ -45,6 +49,19 @@ body {
     text-indent: var(--manu-content-indent);
     margin-top: var(--manu-content-margin-top);
     margin-bottom: var(--manu-content-margin-bottom);
+  }
+
+  strong em,
+  em strong {
+    color: var(--manu-italic-bold-color);
+  }
+
+  em {
+    color: var(--manu-italic-color);
+  }
+
+  strong {
+    color: var(--manu-bold-color);
   }
 
   .callout-title,
@@ -113,3 +130,58 @@ body {
     --callout-icon: var(--manu-break-img-9);
   }
 }
+
+/* @settings
+
+name: Manuscription Snippets
+id: manuscription-snippet
+settings:
+- id: manu-text
+  title: Text
+  type: heading
+  level: 4
+	collapsed: true
+  
+- id: manu-title-color
+  title: Title Color
+  type: variable-color
+  default: rgb(255, 255, 255)
+  format: hex
+- id: manu-title-size
+  title: Title Size
+  type: variable-text
+  default: 24px
+  
+- id: manu-subtitle-color
+  title: Subtitle Color
+  type: variable-color
+  default: rgb(255, 255, 255)
+  format: hex
+- id: manu-subtitle-size
+  title: Title Size
+  type: variable-text
+  default: 14px
+  
+- id: manu-content-color
+  title: Content Color
+  type: variable-color
+  default: rgb(255, 255, 255)
+  format: hex
+- id: manu-content-size
+  title: Content Size
+  type: variable-text
+  default: 14px
+  
+- id: manu-italic-color
+  title: Italic Color
+  type: variable-color
+  format: hex
+- id: manu-bold-size
+  title: Bold Color
+  type: variable-color
+  format: hex
+- id: manu-italic-bold-size
+  title: Italic + Bold Color
+  type: variable-color
+  format: hex
+*/
