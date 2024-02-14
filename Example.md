@@ -25,6 +25,8 @@
 > Mauris tempus eros ornare elit sagittis egestas...
 ```
 
+## Preview
+![[Projects/Manuscription/Workspace/Images/preview.png]]
 ## Default
 
 > [!manuscript]
