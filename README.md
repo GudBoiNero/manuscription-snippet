@@ -2,6 +2,8 @@ Current in development. Overall, meant to allow for easy writing of text like in
 
 For more information on how to use it, check out [this example](https://github.com/GudBoiNero/manuscription-snippet/blob/main/Example.md)!
 
+# Preview
+![Preview](Images/preview.png)
 # Docs
 
 To create a manuscript block, you simply need to make an obsidian callout.
