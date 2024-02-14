@@ -13,6 +13,9 @@ body {
   --manu-bold-color: rgb(255, 255, 255);
   --manu-italic-bold-color: rgb(255, 255, 255);
 
+  --manu-break-font-size: 14px;
+  --manu-break-font-color: rgb(255, 255, 255);
+
   // Spacing
   --manu-title-text-align: center;
   --manu-subtitle-text-align: center;
@@ -90,6 +93,21 @@ body {
         display: none;
       }
     }
+    .callout-content {
+      p {
+        text-indent: unset;
+        font-size: var(--manu-break-font-size);
+        color: var(--manu-break-font-color);
+        text-align: center;
+        margin: auto;
+        .image-embed {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+        }
+      }
+    }
   }
 }
 
@@ -146,4 +164,14 @@ settings:
   title: Italic + Bold Color
   type: variable-color
   format: hex
+  
+- id: manu-break-font-size
+  title: Break Font Size
+  type: variable-text
+  default: 14px
+- id: manu-break-font-color
+  title: Break Font Color
+  type: variable-color
+  format: hex
+  default: rgb(255,255,255)
 */

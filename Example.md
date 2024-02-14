@@ -7,19 +7,22 @@
 >
 > > [!manuscript|subtitle] Subtitle
 >
-> Content
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit...
 >
 > > [!manuscript|break br1] Hidden Text
+> > . . .
 >
-> Some more content
+> Quisque faucibus risus ac **augue tincidunt** maximus...
 >
 > > [!manuscript|break br2] Hidden Text
 >
-> Even more content
+> Maecenas imperdiet eros eu odio condimentum malesuada...
 >
 > > [!manuscript|break br3] Hidden Text
 >
-> The end.
+> Nullam scelerisque velit eu elit feugiat sollicitudin...
+>
+> Mauris tempus eros ornare elit sagittis egestas...
 ```
 
 ## Default
@@ -33,6 +36,7 @@
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec convallis felis. Mauris aliquet tristique commodo. Nunc luctus dolor leo, quis condimentum dui congue in. Mauris tempus justo eget mi sagittis, lacinia euismod ligula eleifend. Cras vitae feugiat ante. Nunc id urna ligula. Suspendisse nulla ligula, rhoncus eu fermentum vel, mattis a dolor.
 >
 > > [!manuscript|break br1] Hidden Text
+> > . . .
 >
 > Quisque faucibus risus ac **augue tincidunt** maximus. Etiam pulvinar eros id ultrices vulputate. Cras faucibus elit at blandit auctor. Cras ut placerat leo. Quisque tellus leo, _mollis ullamcorper eros_ eget, euismod porttitor purus. Curabitur rhoncus nibh non arcu luctus hendrerit. Proin fringilla risus id est iaculis, a vulputate nunc maximus. Nulla nec nulla elit. **Quisque eget sagittis** neque.
 >
