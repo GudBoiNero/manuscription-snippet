@@ -25,16 +25,6 @@ body {
   --manu-margin-bottom: 4px;
 
   // Breaks
-  --manu-break-img-default: "";
-  --manu-break-img-1: "Images/break-example-1.png";
-  --manu-break-img-2: "";
-  --manu-break-img-3: "";
-  --manu-break-img-4: "";
-  --manu-break-img-5: "";
-  --manu-break-img-6: "";
-  --manu-break-img-7: "";
-  --manu-break-img-8: "";
-  --manu-break-img-9: "";
 }
 
 // Set default view, and remove all other elements
@@ -101,34 +91,6 @@ body {
         align-self: center;
       }
     }
-  }
-
-  .callout[data-callout-metadata~="br1"] {
-    --callout-icon: var(--manu-break-img-1);
-  }
-  .callout[data-callout-metadata~="br2"] {
-    --callout-icon: var(--manu-break-img-2);
-  }
-  .callout[data-callout-metadata~="br3"] {
-    --callout-icon: var(--manu-break-img-3);
-  }
-  .callout[data-callout-metadata~="br4"] {
-    --callout-icon: var(--manu-break-img-4);
-  }
-  .callout[data-callout-metadata~="br5"] {
-    --callout-icon: var(--manu-break-img-5);
-  }
-  .callout[data-callout-metadata~="br6"] {
-    --callout-icon: var(--manu-break-img-6);
-  }
-  .callout[data-callout-metadata~="br7"] {
-    --callout-icon: var(--manu-break-img-7);
-  }
-  .callout[data-callout-metadata~="br8"] {
-    --callout-icon: var(--manu-break-img-8);
-  }
-  .callout[data-callout-metadata~="br9"] {
-    --callout-icon: var(--manu-break-img-9);
   }
 }
 
