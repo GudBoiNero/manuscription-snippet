@@ -27,7 +27,7 @@
 
 ## Preview
 
-![[Images/preview.png]]
+![Preview](Images/preview.png)
 
 ## Default
 
